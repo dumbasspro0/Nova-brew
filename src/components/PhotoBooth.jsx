@@ -20,6 +20,7 @@ function PhotoBooth() {
           family, pets, and your favorite coffee.
           Our thoughtfully designed photo spaces are
           made for creating memories you'll love sharing.
+          
         </p>
 
         <ul>
