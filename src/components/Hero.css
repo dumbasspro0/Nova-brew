@@ -1,0 +1,95 @@
+.hero{
+    background:linear-gradient(
+        135deg,
+        var(--cream),
+        var(--beige)
+    );
+}
+
+.hero-left{
+    flex:1;
+}
+
+.welcome{
+    color:var(--brown);
+
+    font-weight:600;
+
+    letter-spacing:3px;
+
+    margin-bottom:20px;
+}
+
+.hero-left h1{
+
+    font-family:'Playfair Display', serif;
+
+    font-size:4rem;
+
+    line-height:1.1;
+
+    color:var(--dark-brown);
+
+    margin-bottom:25px;
+}
+
+.description{
+    font-size:1.2rem;
+
+    line-height:1.8;
+
+    color:#666;
+
+    max-width:550px;
+
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+}
+
+.menu-btn{
+    background:var(--brown);
+
+    color:white;
+
+    border:none;
+
+    padding:16px 30px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+}
+
+.story-btn{
+    background:white;
+
+    color:var(--dark-brown);
+
+    border:2px solid var(--brown);
+
+    padding:16px 30px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+}
+
+.hero-right{
+    flex:1;
+
+    display:flex;
+    justify-content:center;
+}
+
+.hero-right img{
+    width:100%;
+    max-width:500px;
+
+    border-radius:30px;
+
+    box-shadow:var(--shadow);
+}

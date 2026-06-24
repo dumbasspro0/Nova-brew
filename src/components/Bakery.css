@@ -1,0 +1,73 @@
+.bakery{
+    padding:100px 8%;
+    text-align:center;
+    background:var(--cream);
+}
+
+.bakery h2{
+    font-family:'Playfair Display', serif;
+    font-size:3rem;
+    color:var(--dark-brown);
+    margin-bottom:50px;
+}
+
+.bakery-cards{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+}
+
+.bakery-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+    transition:0.3s;
+}
+
+.bakery-card:hover{
+
+    transform:translateY(-10px);
+}
+
+.bakery-card img{
+
+    width:100%;
+    height:220px;
+
+    object-fit:cover;
+}
+
+.bakery-card h3{
+
+    margin-top:20px;
+
+    color:var(--dark-brown);
+}
+
+.bakery-card p{
+
+    padding:15px 20px;
+
+    color:#666;
+}
+
+.bakery-card a{
+
+    display:inline-block;
+
+    margin-bottom:20px;
+
+    color:var(--brown);
+
+    text-decoration:none;
+
+    font-weight:600;
+}

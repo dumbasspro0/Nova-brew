@@ -1,0 +1,14 @@
+:root {
+
+    --cream: #FFF8F2;
+    --beige: #F6EDE3;
+    --pink: #F8D7DA;
+    --sage: #DCE7D1;
+    --brown: #8B6B61;
+    --dark-brown: #4A3428;
+  
+    --shadow:
+      0 10px 25px rgba(0,0,0,0.08);
+  
+    --radius: 20px;
+  }

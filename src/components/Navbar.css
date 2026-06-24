@@ -1,0 +1,67 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+
+    background:rgba(74,52,40,0.95);
+
+    position:sticky;
+    top:0;
+
+    z-index:1000;
+
+    backdrop-filter:blur(10px);
+}
+
+.logo{
+    font-size:2rem;
+    color:white;
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+
+    font-weight:500;
+
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:var(--pink);
+}
+
+.reserve-btn{
+
+    background:var(--pink);
+
+    color:var(--dark-brown);
+
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.reserve-btn:hover{
+
+    transform:translateY(-3px);
+}

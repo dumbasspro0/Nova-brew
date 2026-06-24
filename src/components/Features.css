@@ -1,0 +1,40 @@
+.features{
+    width:90%;
+    margin:auto;
+    margin-top:-60px;
+
+    position:relative;
+    z-index:10;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.feature-card{
+
+    background:var(--cream);
+
+    padding:30px 20px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:0.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+}
+
+.feature-card h3{
+    color:var(--brown);
+    margin-bottom:15px;
+}
+
+.feature-card p{
+    color:var(--dark-brown);
+}

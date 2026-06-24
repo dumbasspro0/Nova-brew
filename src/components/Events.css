@@ -1,0 +1,52 @@
+.events{
+    padding:120px 10%;
+    text-align:center;
+    background:var(--cream);
+}
+
+.events h2{
+    font-family:'Playfair Display', serif;
+    font-size:3rem;
+    color:var(--dark-brown);
+    margin-bottom:50px;
+}
+
+.event-cards{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+}
+
+.event-card{
+
+    background:white;
+
+    padding:35px 25px;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+    transition:0.3s;
+}
+
+.event-card:hover{
+
+    transform:translateY(-10px);
+}
+
+.event-card h3{
+
+    color:var(--dark-brown);
+
+    margin-bottom:15px;
+}
+
+.event-card p{
+
+    color:#666;
+
+    line-height:1.6;
+}

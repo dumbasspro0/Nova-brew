@@ -1,0 +1,75 @@
+.pet-zone{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:60px;
+
+    padding:120px 10%;
+
+    background:white;
+}
+
+.pet-image{
+    flex:1;
+}
+
+.pet-image img{
+    width:100%;
+
+    border-radius:25px;
+
+    box-shadow:var(--shadow);
+
+    transition:0.3s;
+}
+
+.pet-image img:hover{
+    transform:scale(1.02);
+}
+
+.pet-content{
+    flex:1;
+}
+
+.pet-content p:first-child{
+
+    color:var(--brown);
+
+    letter-spacing:3px;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+}
+
+.pet-content h2{
+    font-family:'Playfair Display', serif;
+
+    font-size:3rem;
+
+    color:var(--dark-brown);
+
+    margin-bottom:25px;
+}
+
+.pet-content p{
+
+    line-height:1.8;
+
+    color:#666;
+}
+
+.pet-content ul{
+
+    margin-top:25px;
+}
+
+.pet-content li{
+
+    margin-bottom:15px;
+
+    color:var(--dark-brown);
+
+    font-size:1.05rem;
+}
