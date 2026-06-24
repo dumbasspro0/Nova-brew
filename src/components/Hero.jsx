@@ -2,7 +2,12 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <section id="home" className="hero">
+    <section
+  id="home"
+  className="hero"
+  data-aos="fade-up"
+      >
+    
 
       <div className="hero-left">
 
@@ -11,15 +16,15 @@ function Hero() {
         </p>
 
         <h1>
-          A Cozy Haven
+          Coffee, Books
           <br />
-          For Every Mood
+          & Cozy Moments
         </h1>
 
         <p className="description">
-          Sip handcrafted coffee, enjoy fresh bakery
-          treats, relax with books, and spend quality
-          time with your furry friends.
+          Discover handcrafted coffee, fresh bakery delights,
+          reading corners, pet-friendly spaces, and creative
+          work areas designed for every mood.
         </p>
 
         <div className="hero-buttons">
@@ -39,8 +44,8 @@ function Hero() {
       <div className="hero-right">
 
         <img
-          src="https://images.unsplash.com/photo-1517849845537-4d257902454a"
-          alt="dog"
+          src="https://images.unsplash.com/photo-1554118811-1e0d58224f24"
+          alt="Nova Brew Cafe"
         />
 
       </div>

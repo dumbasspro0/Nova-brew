@@ -2,41 +2,42 @@ import "./PetZone.css";
 
 function PetZone() {
   return (
-    <section id="petzone" className="pet-zone">
+    <section
+  id="petzone"
+  className="pet-zone"
+  data-aos="fade-right"
+      >
 
       <div className="pet-image">
+
         <img
-          src="https://images.unsplash.com/photo-1517849845537-4d257902454a"
+          src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7"
           alt="Pet Friendly Cafe"
         />
+
       </div>
 
       <div className="pet-content">
 
-        <p>PET FRIENDLY CORNER</p>
+        <p>PET FRIENDLY EXPERIENCE</p>
 
         <h2>
-          Because Coffee Is Better With Companions
+          Every Coffee Tastes Better With A Companion
         </h2>
 
         <p>
-          Bring your furry friends and enjoy a cozy café
-          experience together. Nova Brew offers dedicated
-          pet hours, water stations, treats, and fun pet
-          community events.
+          Nova Brew welcomes pets with dedicated
+          seating zones, water stations, treats,
+          and community meetups.
         </p>
 
         <ul>
-          <li>🐶 Dedicated Dog Area</li>
-          <li>🐱 Cat Friendly Space</li>
-          <li>💧 Water Stations</li>
-          <li>🦴 Complimentary Pet Treats</li>
-          <li>🎉 Monthly Pet Meetups</li>
+          <li>Reserved Pet-Friendly Hours</li>
+       <li>Comfortable Indoor Seating</li>
+       <li>Cozy Companion Corner</li>
+       <li>Fresh Water & Treat Stations</li>
+       <li>Community Pet Gatherings</li>
         </ul>
-
-        <button className="pet-btn">
-          Explore Pet Events
-        </button>
 
       </div>
 

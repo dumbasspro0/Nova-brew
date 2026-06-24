@@ -5,7 +5,7 @@
 
     padding:20px 8%;
 
-    background:rgba(74,52,40,0.95);
+    background:rgba(248,244,239,0.95);
 
     position:sticky;
     top:0;
@@ -13,16 +13,19 @@
     z-index:1000;
 
     backdrop-filter:blur(10px);
+
+    border-bottom:1px solid rgba(0,0,0,0.05);
 }
 
 .logo{
     font-size:2rem;
-    color:white;
+    color:var(--dark-brown);
+    font-weight:700;
 }
 
 .nav-links{
     display:flex;
-    gap:30px;
+    gap:35px;
 }
 
 .nav-links li{
@@ -31,7 +34,7 @@
 
 .nav-links a{
     text-decoration:none;
-    color:white;
+    color:var(--dark-brown);
 
     font-weight:500;
 
@@ -39,7 +42,7 @@
 }
 
 .nav-links a:hover{
-    color:var(--pink);
+    color:var(--brown);
 }
 
 .reserve-btn{
@@ -64,4 +67,6 @@
 .reserve-btn:hover{
 
     transform:translateY(-3px);
+
+    background:#e4c0ba;
 }

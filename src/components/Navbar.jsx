@@ -32,9 +32,11 @@ function Navbar() {
 
       </ul>
 
-      <button className="reserve-btn">
-        Reserve Table
-      </button>
+      <a href="#reservation">
+  <button className="reserve-btn">
+    Reserve Table
+  </button>
+</a>
 
     </nav>
   );

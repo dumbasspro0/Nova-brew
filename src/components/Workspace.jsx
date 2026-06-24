@@ -2,12 +2,15 @@ import "./Workspace.css";
 
 function Workspace() {
   return (
-    <section className="workspace">
+    <section
+      className="workspace"
+      data-aos="fade-right"
+    >
 
       <div className="workspace-image">
 
         <img
-          src="https://images.unsplash.com/photo-1497366754035-f200968a6e72"
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
           alt="Workspace"
         />
 
@@ -18,26 +21,25 @@ function Workspace() {
         <p>WORK • STUDY • CREATE</p>
 
         <h2>
-          Your Second Workspace
+          Designed For Focus & Creativity
         </h2>
 
         <p>
-          Whether you're a student, freelancer,
-          or remote worker, Nova Brew offers
-          comfortable seating, reliable WiFi,
-          and a peaceful atmosphere designed
-          for productivity.
+          Whether you're a student, freelancer, or remote
+          professional, Nova Brew provides thoughtfully
+          designed spaces that inspire productivity while
+          keeping the cozy café atmosphere you love.
         </p>
 
         <ul>
-          <li>📶 High-Speed WiFi</li>
-          <li>🔌 Charging Stations</li>
-          <li>💻 Work-Friendly Tables</li>
-          <li>🤫 Quiet Study Corners</li>
+          <li> Dedicated Productivity Spaces</li>
+          <li> Unlimited Coffee Break Moments</li>
+          <li> Convenient Charging Access</li>
+          <li> Calm & Inspiring Environment</li>
         </ul>
 
         <button className="workspace-btn">
-          Book A Work Spot
+          Reserve A Workspace
         </button>
 
       </div>

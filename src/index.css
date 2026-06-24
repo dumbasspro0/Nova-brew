@@ -1,3 +1,15 @@
+:root{
+  --cream:#F8F4EF;
+  --beige:#EFE7DD;
+  --pink:#E8CFCB;
+  --sage:#D9E2D0;
+
+  --brown:#9B7B6C;
+  --dark-brown:#5E463A;
+
+  --shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
 html{
   scroll-behavior:smooth;
 }

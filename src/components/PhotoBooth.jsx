@@ -2,27 +2,31 @@ import "./PhotoBooth.css";
 
 function PhotoBooth() {
   return (
-    <section className="photo-booth">
+    <section
+      className="photo-booth"
+      data-aos="zoom-in"
+    >
 
       <div className="photo-content">
 
-        <p>SNAP • SHARE • SMILE</p>
+        <p>SNAP • SHARE • CREATE MEMORIES</p>
 
         <h2>
-          Capture Your Nova Brew Moments
+          Every Visit Deserves A Memory
         </h2>
 
         <p>
-          From cozy coffee dates to pet selfies and
-          book club memories, our aesthetic photo booth
-          is designed to help you create unforgettable moments.
+          Capture beautiful moments with friends,
+          family, pets, and your favorite coffee.
+          Our thoughtfully designed photo spaces are
+          made for creating memories you'll love sharing.
         </p>
 
         <ul>
-          <li>📸 Aesthetic Backdrops</li>
-          <li>🐶 Pet-Friendly Photo Corner</li>
-          <li>🌸 Seasonal Decorations</li>
-          <li>✨ Instagram-Worthy Setup</li>
+          <li> Curated Photo Spaces</li>
+          <li> Seasonal Decor Themes</li>
+          <li> Cozy Café Aesthetics</li>
+          <li> Instagram-Worthy Corners</li>
         </ul>
 
         <button className="photo-btn">
@@ -34,7 +38,7 @@ function PhotoBooth() {
       <div className="photo-image">
 
         <img
-          src="https://images.unsplash.com/photo-1519741497674-611481863552"
+          src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac"
           alt="Photo Booth"
         />
 

@@ -2,7 +2,10 @@ import "./ReadingLounge.css";
 
 function ReadingLounge() {
   return (
-    <section className="reading">
+    <section
+      className="reading"
+      data-aos="fade-left"
+    >
 
       <div className="reading-content">
 
@@ -14,16 +17,16 @@ function ReadingLounge() {
 
         <p>
           Escape into stories while enjoying handcrafted
-          coffee and fresh bakery items. Whether you're
-          studying, working, or simply relaxing, Nova Brew
-          offers the perfect nook.
+          coffee and freshly baked treats. Whether you're
+          studying, working, or simply unwinding, Nova Brew
+          offers the perfect sanctuary for book lovers.
         </p>
 
         <ul>
-          <li>📚 Curated Book Collection</li>
-          <li>🪑 Cozy Reading Nooks</li>
-          <li>☕ Coffee & Book Pairings</li>
-          <li>🌿 Quiet Atmosphere</li>
+          <li> Carefully Curated Library</li>
+          <li> Cozy Reading Corners</li>
+          <li> Signature Coffee Pairings</li>
+          <li> Calm & Quiet Ambience</li>
         </ul>
 
         <button className="reading-btn">
@@ -35,7 +38,7 @@ function ReadingLounge() {
       <div className="reading-image">
 
         <img
-          src="https://images.unsplash.com/photo-1507842217343-583bb7270b66"
+          src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da"
           alt="Reading Lounge"
         />
 

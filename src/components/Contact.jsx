@@ -2,7 +2,10 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <section className="contact">
+    <section
+  className="contact"
+  data-aos="fade-up"
+>
 
       <p className="small-heading">
         VISIT US
